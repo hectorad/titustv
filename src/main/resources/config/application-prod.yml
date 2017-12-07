@@ -76,6 +76,8 @@ jhipster:
         cache: # Used by the CachingHttpHeadersFilter
             timeToLiveInDays: 1461
     security:
+        basic:
+            enabled: false
         authentication:
             jwt:
                 secret: 592d03c9919ecaabf3b929b4c54d4c19f484cb08
